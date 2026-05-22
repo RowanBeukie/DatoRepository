@@ -1,4 +1,4 @@
-# Hogo-Book Starter
+# Hugo-Book Starter
 
 This is a template repository to bootstrap your documentation site with Hugo-Book theme. It contains minimal configured from the start hugo site.
 1. To use this repository create a new repository from this template
