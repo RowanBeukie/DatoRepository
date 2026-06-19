@@ -1,5 +1,5 @@
 ---
-title: "7.1.1	Capability – Performance"
+title: "7.1.1 Capability - Performance"
 weight: 10
 ---
 
