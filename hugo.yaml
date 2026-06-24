@@ -1,6 +1,11 @@
 baseURL: https://datorepository.netlify.app/
-title: Documentation
+title: "7.1 Governance & Organisational Capability"
 theme: hugo-book
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 #copyright: "This is a copyright placeholder"
 
@@ -88,7 +93,7 @@ params:
   # (Optional, default true) Enables search function with flexsearch,
   # Index is built on fly, therefore it might slowdown your website.
   # Configuration for indexing can be adjusted in i18n folder per language.
-  BookSearch: true
+  BookSearch: false
 
   # (Optional, default true) Enables comments template on pages
   # By default partals/docs/comments.html includes Disqus template
@@ -111,3 +116,5 @@ params:
   # /!\ This is an experimental feature, might be removed or changed at any time
   # (Optional, experimental, default false) Enables a drop-down menu for translations only if a translation is present.
   BookTranslatedOnly: false
+
+  BookEnableJS: true

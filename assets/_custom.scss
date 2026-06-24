@@ -2,3 +2,32 @@
 
 // @import "plugins/numbered";
 // @import "plugins/scrollbars";
+
+// Override the theme's default scrollbar styling tokens completely
+html, body, .book-menu aside nav, aside nav, main, article {
+  
+  // 1. Webkit Engines (Chrome, Brave, Edge, Safari)
+  &::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: #ffffff !important; // Eliminates the dark gray track background strip
+    box-shadow: none !important;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #cccccc !important; // Sets a clean, soft gray handle color
+    border-radius: 4px !important;
+    border: 2px solid #ffffff !important; // Pads the handle so it looks clean
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #999999 !important; // Slightly darkens when you hover your mouse
+  }
+
+  // 2. Firefox Engine Fallback Support
+  scrollbar-width: thin !important;
+  scrollbar-color: #cccccc #ffffff !important;
+}
