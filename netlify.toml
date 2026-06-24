@@ -1,6 +1,6 @@
 [build]
-  command = "hugo && npx pagefind --site public --bundle-dir static/_pagefind"
+  command = "hugo && npx pagefind --site public"
   publish = "public"
 
 [build.environment]
-  HUGO_VERSION = "0.140.0"
+  HUGO_VERSION = "0.162.0"

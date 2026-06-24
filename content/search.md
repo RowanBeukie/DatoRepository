@@ -1,6 +1,5 @@
 ---
 title: "Search Repository"
-type: "docs"
 ---
 
 ## Search the repository
